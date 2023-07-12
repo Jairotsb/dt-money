@@ -1,0 +1,35 @@
+{
+  "hash": "e83cc05e",
+  "browserHash": "3c531310",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "69c5b234",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0288a0db",
+      "needsInterop": true
+    },
+    "styled-components": {
+      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "a218f0b6",
+      "needsInterop": false
+    },
+    "phosphor-react": {
+      "src": "../../node_modules/phosphor-react/dist/index.esm.js",
+      "file": "phosphor-react.js",
+      "fileHash": "74c94078",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QSQYAWSL": {
+      "file": "chunk-QSQYAWSL.js"
+    }
+  }
+}
