@@ -1,4 +1,4 @@
-import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
+import { HeaderContainer, HeaderContent } from './styles'
 
 import logoImg from '../../assets/Logo.svg'
 import { NewTransactionModal } from '../NewTransactionModal'

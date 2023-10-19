@@ -1,20 +1,44 @@
 {
-    "transactions": [
-        {
-        "id": 1, 
-        "description": "Desenvolvimento de site", 
-        "type": "income", 
-        "category": "Venda", 
-        "price": 1400, 
-        "createdAt": "2023-09-21T22:28:11.358Z"
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 1400,
+      "createdAt": "2023-09-21T22:28:11.358Z"
     },
     {
-        "id": 2, 
-        "description": "Burguer", 
-        "type": "outcome", 
-        "category": "Compra", 
-        "price": 20, 
-        "createdAt": "2023-09-21T22:28:11.358Z"
+      "id": 2,
+      "description": "Burguer",
+      "type": "outcome",
+      "category": "Compra",
+      "price": 20,
+      "createdAt": "2023-09-21T22:28:11.358Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Freela",
+      "type": "income",
+      "createdAt": "2023-10-19T12:41:21.082Z",
+      "id": 3
+    },
+    {
+      "description": "Desenvolvimento de site (landing page)",
+      "price": 500,
+      "category": "Freela",
+      "type": "income",
+      "createdAt": "2023-10-19T13:01:29.222Z",
+      "id": 4
+    },
+    {
+      "description": "Lanche com a noiva",
+      "price": 35,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-10-19T13:15:09.715Z",
+      "id": 5
     }
-]
+  ]
 }
