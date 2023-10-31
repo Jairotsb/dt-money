@@ -10,6 +10,26 @@ const searchFormSchema = z.object({
   query: z.string(),
 })
 
+/**
+ *  Por que um componente renderiza?
+ *
+ * Hooks Changed (Mudou o estado, contexto, reducer)
+ * Props Changed (Mudou propriedades)
+ * Parent rendered (componente pai renderizou)
+ *
+ * Qual o fluxo de renderização?
+ *
+ * 1. React recria o HTML da interface do componente
+ * 2. Compara a versão HTML recriada com a interior
+ * 3. If changed ? print(newHTML)
+ *
+ * Memo:
+ * 0. Mudou alguma coisa nos hooks do componente || props chnaged (deep comparsion) ?
+ * 0.1  Comparar a versão anterior dos hooks e props (Problema: Ficar comparando váriavel as vezes é menos vantajoso)
+ * 0.2 If changed ? return render();
+ *
+ */
+
 type SearchFormInputs = z.infer<typeof searchFormSchema>
 
 export function SearchForm() {
